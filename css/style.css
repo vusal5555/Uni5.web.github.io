@@ -1,0 +1,121 @@
+
+.second-nav-link {
+  color: white;
+}
+.navbar {
+  width: 100%;
+  overflow: auto;
+  
+}
+
+.navbar-second-item {
+  padding: 1% 6%;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  white-space: nowrap;
+  
+
+}
+
+
+.course-logo {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  
+  
+  
+
+}
+.bi-house {
+ 
+  margin-bottom: 150px;
+  
+  
+  
+  font-size: 35PX;
+  
+}
+
+.navbar-brand {
+  margin-bottom: 10px;
+  
+  
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.navbar-first {
+  padding: 2% 6%;
+  
+  font-size: 23px;
+  font-weight: 700;
+  color: lightgrey;
+  width: 25%;
+  float: left;
+  display: flex;
+  width: 100%;
+}
+
+.school {
+  font-size: 15PX;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.event-con {
+  line-height: 2px;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: grey;
+
+}
+
+.logo {
+  height: 120px;
+  border-radius: 50%;
+}
+
+
+.nav-link {
+  padding: 0;
+  
+}
+
+.nav-link::after {
+  content: '';
+  width: 0%;
+  height: 1px;
+  background-color: white;
+  display: block;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.library {
+  width: 100%;
+}
+
+@media (max-width:1200px) {
+  .navbar-toggler {
+    margin: 10px
+
+  }
+
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+.nav-icon {
+  border: none;
+  margin-top: 5px;
+}
